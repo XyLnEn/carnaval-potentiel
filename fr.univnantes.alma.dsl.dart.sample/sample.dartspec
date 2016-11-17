@@ -32,6 +32,9 @@
           <methods name="create"/>
         </assets>
         <assets xsi:type="dart:Component" name="CreateCall" extends="//@packages.0/@assets.0/@assets.0/@assets.7" template="//@packages.0/@assets.0/@assets.0/@assets.6" selector="create-call"/>
+        <assets xsi:type="dart:Class" name=""/>
+        <assets xsi:type="dart:Class" name="newClass"/>
+        <assets xsi:type="dart:Class" name=""/>
       </assets>
       <assets xsi:type="dart:Folder" name="decorators">
         <assets xsi:type="dart:Decorator" name="Toggle">
@@ -42,7 +45,7 @@
         </assets>
       </assets>
       <assets xsi:type="dart:Folder" name="models">
-        <assets xsi:type="dart:Class" name="AgendaItem" abstract="true">
+        <assets xsi:type="dart:Class" name="AgendaItem" abstract="true" extends="//@packages.0/@assets.0/@assets.2/@assets.1">
           <fields name="description">
             <type xsi:type="dart:Class" href="../../plugin/org.obeonetwork.dsl.dart/model/dartlang.dartspec#//@packages.0/@assets.2/@assets.8"/>
           </fields>
