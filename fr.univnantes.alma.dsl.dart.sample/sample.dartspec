@@ -42,7 +42,7 @@
         </assets>
       </assets>
       <assets xsi:type="dart:Folder" name="models">
-        <assets xsi:type="dart:Class" name="AgendaItem">
+        <assets xsi:type="dart:Class" name="AgendaItem" abstract="true">
           <fields name="description">
             <type xsi:type="dart:Class" href="../../plugin/org.obeonetwork.dsl.dart/model/dartlang.dartspec#//@packages.0/@assets.2/@assets.8"/>
           </fields>
