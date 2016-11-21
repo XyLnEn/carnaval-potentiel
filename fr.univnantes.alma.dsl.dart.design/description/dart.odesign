@@ -24,14 +24,14 @@
             </centerLabelStyleDescription>
           </style>
         </edgeMappings>
-        <containerMappings name="class" labelDirectEdit="//@ownedViewpoints[name='Architect']/@ownedRepresentations[name='Class_Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='renameClass']" semanticCandidatesExpression="feature:assets" domainClass="dart.Class" childrenPresentation="List">
-          <subNodeMappings name="variable" semanticCandidatesExpression="feature:eAllContents" domainClass="dart.Variable">
+        <containerMappings name="class" labelDirectEdit="//@ownedViewpoints[name='Architect']/@ownedRepresentations[name='Class_Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='renameClass']" semanticCandidatesExpression="feature:assets" domainClass="dart.Class" childrenPresentation="List">
+          <subNodeMappings name="variable" labelDirectEdit="//@ownedViewpoints[name='Architect']/@ownedRepresentations[name='Class_Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='renameVariable']" semanticCandidatesExpression="feature:eAllContents" domainClass="dart.Variable">
             <style xsi:type="style:SquareDescription" labelPosition="node" resizeKind="NSEW" color="//@userColorsPalettes[name=null]/@entries[name='pancakes']">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             </style>
           </subNodeMappings>
-          <subNodeMappings name="function" semanticCandidatesExpression="feature:eAllContents" domainClass="dart.Function">
+          <subNodeMappings name="function" labelDirectEdit="//@ownedViewpoints[name='Architect']/@ownedRepresentations[name='Class_Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='renameFunction']" semanticCandidatesExpression="feature:eAllContents" domainClass="dart.Function">
             <borderedNodeMappings name="param" semanticCandidatesExpression="feature:eAllContents" domainClass="dart.Parameter">
               <style xsi:type="style:SquareDescription" labelPosition="node" resizeKind="NSEW">
                 <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
@@ -78,23 +78,6 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="newFunction" nodeMappings="//@ownedViewpoints[name='Architect']/@ownedRepresentations[name='Class_Diagram']/@defaultLayer/@containerMappings[name='class']/@subNodeMappings[name='function']">
-            <variable name="container"/>
-            <viewVariable name="containerView"/>
-            <initialOperation>
-              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
-                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="dart.Function" referenceName="methods">
-                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="newfunction"/>
-                </subModelOperations>
-              </firstModelOperations>
-            </initialOperation>
-          </ownedTools>
-          <ownedTools xsi:type="tool:DirectEditLabel" name="renameClass">
-            <mask mask="{0}"/>
-            <initialOperation>
-              <firstModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:arg0"/>
-            </initialOperation>
-          </ownedTools>
           <ownedTools xsi:type="tool:EdgeCreationDescription" name="extends" edgeMappings="//@ownedViewpoints[name='Architect']/@ownedRepresentations[name='Class_Diagram']/@defaultLayer/@edgeMappings[name='extends']">
             <sourceVariable name="source"/>
             <targetVariable name="target"/>
@@ -105,6 +88,26 @@
             </initialOperation>
           </ownedTools>
         </toolSections>
+        <toolSections name="edit">
+          <ownedTools xsi:type="tool:DirectEditLabel" name="renameClass">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="renameFunction">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="renameVariable">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
       </defaultLayer>
     </ownedRepresentations>
     <ownedJavaExtensions qualifiedClassName="fr.univnantes.alma.dsl.dart.design.Services"/>
@@ -112,9 +115,44 @@
   <ownedViewpoints name="Developer">
     <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Explorer_Diagram" domainClass="dart.Folder" enablePopupBars="true">
       <defaultLayer name="Default">
-        <containerMappings name="Folder" semanticCandidatesExpression="feature:eContainer" domainClass="dart.Folder">
-          <subNodeMappings name="SubFolder" semanticCandidatesExpression="feature:eAllContents" domainClass="dart.Folder"/>
+        <containerMappings name="Folder" semanticCandidatesExpression="feature:eAllContents" domainClass="dart.Folder" childrenPresentation="List">
+          <subNodeMappings name="SubFolder" semanticCandidatesExpression="feature:eAllContents" domainClass="dart.Container">
+            <style xsi:type="style:WorkspaceImageDescription" iconPath="/fr.univnantes.alma.dsl.dart.design/icons/full/etool16/NewDartDesignerProject.png" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:WorkspaceImageDescription" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/folder_512x512.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+          <conditionnalStyles predicateExpression="aql:self.assets->size() > 0">
+            <style xsi:type="style:WorkspaceImageDescription" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/folder_documents_512x512.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </conditionnalStyles>
         </containerMappings>
+        <toolSections name="creation">
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="newFolder" containerMappings="//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@containerMappings[name='Folder']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="dart.Folder" referenceName="assets">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="new folder"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="newSubFolder" nodeMappings="//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@containerMappings[name='Folder']/@subNodeMappings[name='SubFolder']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
       </defaultLayer>
     </ownedRepresentations>
   </ownedViewpoints>
