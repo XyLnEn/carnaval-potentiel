@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dart="http://www.obeo.fr/dsl/2014/dart" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
-  <viewpoint:DAnalysis xmi:id="_ClWjEKyjEeaiceNU6pMpIw" selectedViews="_pwpAUK_kEeaDkMQrUjkbug" version="11.1.0.201608251200">
+  <viewpoint:DAnalysis xmi:id="_ClWjEKyjEeaiceNU6pMpIw" selectedViews="_pwpAUK_kEeaDkMQrUjkbug _Uf-YwKynEeaXNd-s0mU1sw" version="11.1.0.201608251200">
     <semanticResources>sample.dartspec</semanticResources>
     <semanticResources>platform:/plugin/org.obeonetwork.dsl.dart/model/dartlang.dartspec</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" xmi:id="_Uf-YwKynEeaXNd-s0mU1sw">
@@ -16,9 +16,28 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" xmi:id="_pwpAUK_kEeaDkMQrUjkbug">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_9ZNQcK_mEeaDkMQrUjkbug" name="FolderRepresentation" representation="_9ZNQca_mEeaDkMQrUjkbug">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_0tuBkLCXEeaRk6GFzdaaTA" name="CSS" representation="_0tuBkbCXEeaRk6GFzdaaTA">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']"/>
+        <target xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.2/@assets.1"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_v7hL8LCZEeaRk6GFzdaaTA" name="PNG" representation="_v7hL8bCZEeaRk6GFzdaaTA">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']"/>
+        <target xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.2/@assets.2"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_IDJL4LCdEeaRk6GFzdaaTA" name="HTML" representation="_IDJy8LCdEeaRk6GFzdaaTA">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']"/>
+        <target xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.0/@assets.0"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_8vFKwLCpEeaRk6GFzdaaTA" name="folder" representation="_8vFKwbCpEeaRk6GFzdaaTA">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']"/>
         <target xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.0"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_Ld4FALCrEeaRk6GFzdaaTA" name="Folder-test" representation="_Ld4FAbCrEeaRk6GFzdaaTA">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']"/>
+        <target xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.0/@assets.4"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_Sn3fILCuEeaRk6GFzdaaTA" name="Explorer_Diagram" representation="_Sn57YLCuEeaRk6GFzdaaTA">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']"/>
       </ownedRepresentationDescriptors>
     </ownedViews>
   </viewpoint:DAnalysis>
@@ -472,86 +491,640 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Architect']/@ownedRepresentations[name='Class_Diagram']/@defaultLayer"/>
     <target xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.0/@assets.0"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_9ZNQca_mEeaDkMQrUjkbug" name="FolderRepresentation">
-    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_9ZNQcq_mEeaDkMQrUjkbug" source="DANNOTATION_CUSTOMIZATION_KEY">
-      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_9ZNQc6_mEeaDkMQrUjkbug"/>
+  <diagram:DSemanticDiagram xmi:id="_0tuBkbCXEeaRk6GFzdaaTA" name="CSS">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_0tuBkrCXEeaRk6GFzdaaTA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_0tuBk7CXEeaRk6GFzdaaTA"/>
     </ownedAnnotationEntries>
-    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_9ZN3gK_mEeaDkMQrUjkbug" source="GMF_DIAGRAMS">
-      <data xmi:type="notation:Diagram" xmi:id="_9ZN3ga_mEeaDkMQrUjkbug" type="Sirius" element="_9ZNQca_mEeaDkMQrUjkbug" measurementUnit="Pixel">
-        <children xmi:type="notation:Node" xmi:id="_9ZN3g6_mEeaDkMQrUjkbug" type="2003" element="_9ZNQdK_mEeaDkMQrUjkbug">
-          <children xmi:type="notation:Node" xmi:id="_9ZN3hq_mEeaDkMQrUjkbug" type="5007"/>
-          <children xmi:type="notation:Node" xmi:id="_9ZN3h6_mEeaDkMQrUjkbug" type="7004">
-            <styles xmi:type="notation:SortingStyle" xmi:id="_9ZN3iK_mEeaDkMQrUjkbug"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_9ZN3ia_mEeaDkMQrUjkbug"/>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_0tuBmbCXEeaRk6GFzdaaTA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_0tuBmrCXEeaRk6GFzdaaTA" type="Sirius" element="_0tuBkbCXEeaRk6GFzdaaTA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_0tuBnLCXEeaRk6GFzdaaTA" type="2001" element="_0tuBlLCXEeaRk6GFzdaaTA">
+          <children xmi:type="notation:Node" xmi:id="_0tuooLCXEeaRk6GFzdaaTA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_0tuoobCXEeaRk6GFzdaaTA" y="5"/>
           </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_9ZN3hK_mEeaDkMQrUjkbug" fontName="Liberation Sans"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9ZN3ha_mEeaDkMQrUjkbug"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_9ZOekK_mEeaDkMQrUjkbug" type="2003" element="_9ZNQda_mEeaDkMQrUjkbug">
-          <children xmi:type="notation:Node" xmi:id="_9ZOek6_mEeaDkMQrUjkbug" type="5007"/>
-          <children xmi:type="notation:Node" xmi:id="_9ZOelK_mEeaDkMQrUjkbug" type="7004">
-            <styles xmi:type="notation:SortingStyle" xmi:id="_9ZOela_mEeaDkMQrUjkbug"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_9ZOelq_mEeaDkMQrUjkbug"/>
+          <children xmi:type="notation:Node" xmi:id="_0tvPsrCXEeaRk6GFzdaaTA" type="3005" element="_0tuBlbCXEeaRk6GFzdaaTA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_0tvPs7CXEeaRk6GFzdaaTA" fontName="Noto Sans"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0tvPtLCXEeaRk6GFzdaaTA"/>
           </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_9ZOeka_mEeaDkMQrUjkbug" fontName="Liberation Sans"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9ZOekq_mEeaDkMQrUjkbug" x="570"/>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_0tuBnbCXEeaRk6GFzdaaTA" fontName="Noto Sans" fontHeight="12" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0tuBnrCXEeaRk6GFzdaaTA" width="200" height="200"/>
         </children>
-        <children xmi:type="notation:Node" xmi:id="_9ZOel6_mEeaDkMQrUjkbug" type="2003" element="_9ZNQdq_mEeaDkMQrUjkbug">
-          <children xmi:type="notation:Node" xmi:id="_9ZOemq_mEeaDkMQrUjkbug" type="5007"/>
-          <children xmi:type="notation:Node" xmi:id="_9ZOem6_mEeaDkMQrUjkbug" type="7004">
-            <styles xmi:type="notation:SortingStyle" xmi:id="_9ZOenK_mEeaDkMQrUjkbug"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_9ZOena_mEeaDkMQrUjkbug"/>
+        <children xmi:type="notation:Node" xmi:id="_0tuoorCXEeaRk6GFzdaaTA" type="2001" element="_0tuBlrCXEeaRk6GFzdaaTA">
+          <children xmi:type="notation:Node" xmi:id="_0tvPsLCXEeaRk6GFzdaaTA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_0tvPsbCXEeaRk6GFzdaaTA" y="5"/>
           </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_9ZOemK_mEeaDkMQrUjkbug" fontName="Liberation Sans"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9ZOema_mEeaDkMQrUjkbug" x="1145"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_9ZOenq_mEeaDkMQrUjkbug" type="2003" element="_9ZNQd6_mEeaDkMQrUjkbug">
-          <children xmi:type="notation:Node" xmi:id="_9ZPFoK_mEeaDkMQrUjkbug" type="5007"/>
-          <children xmi:type="notation:Node" xmi:id="_9ZPFoa_mEeaDkMQrUjkbug" type="7004">
-            <styles xmi:type="notation:SortingStyle" xmi:id="_9ZPFoq_mEeaDkMQrUjkbug"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_9ZPFo6_mEeaDkMQrUjkbug"/>
+          <children xmi:type="notation:Node" xmi:id="_0tv2wLCXEeaRk6GFzdaaTA" type="3005" element="_0tuBl7CXEeaRk6GFzdaaTA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_0tv2wbCXEeaRk6GFzdaaTA" fontName="Noto Sans"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0tv2wrCXEeaRk6GFzdaaTA"/>
           </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_9ZOen6_mEeaDkMQrUjkbug" fontName="Liberation Sans"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9ZOeoK_mEeaDkMQrUjkbug" x="1715"/>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_0tuoo7CXEeaRk6GFzdaaTA" fontName="Noto Sans" fontHeight="12" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0tuopLCXEeaRk6GFzdaaTA" x="260" width="200" height="200"/>
         </children>
-        <styles xmi:type="notation:DiagramStyle" xmi:id="_9ZN3gq_mEeaDkMQrUjkbug"/>
+        <children xmi:type="notation:Node" xmi:id="_oK4hMLCZEeaRk6GFzdaaTA" type="2001" element="_oK2sALCZEeaRk6GFzdaaTA">
+          <children xmi:type="notation:Node" xmi:id="_oK4hM7CZEeaRk6GFzdaaTA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_oK4hNLCZEeaRk6GFzdaaTA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_oK5IQrCZEeaRk6GFzdaaTA" type="3005" element="_oK2sAbCZEeaRk6GFzdaaTA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_oK5IQ7CZEeaRk6GFzdaaTA" fontName="Noto Sans"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oK5IRLCZEeaRk6GFzdaaTA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_oK4hMbCZEeaRk6GFzdaaTA" fontName="Noto Sans" fontHeight="12" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oK4hMrCZEeaRk6GFzdaaTA" x="490" width="100" height="70"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_oK4hNbCZEeaRk6GFzdaaTA" type="2001" element="_oK3TELCZEeaRk6GFzdaaTA">
+          <children xmi:type="notation:Node" xmi:id="_oK5IQLCZEeaRk6GFzdaaTA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_oK5IQbCZEeaRk6GFzdaaTA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_oK5vULCZEeaRk6GFzdaaTA" type="3005" element="_oK3TEbCZEeaRk6GFzdaaTA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_oK5vUbCZEeaRk6GFzdaaTA" fontName="Noto Sans"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oK5vUrCZEeaRk6GFzdaaTA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_oK4hNrCZEeaRk6GFzdaaTA" fontName="Noto Sans" fontHeight="12" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oK4hN7CZEeaRk6GFzdaaTA" x="750" width="100" height="70"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_0tuBm7CXEeaRk6GFzdaaTA"/>
       </data>
     </ownedAnnotationEntries>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_9ZNQdK_mEeaDkMQrUjkbug" name="components">
-      <target xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.0/@assets.0"/>
-      <semanticElements xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.0/@assets.0"/>
-      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_QOIIAK_nEeaDkMQrUjkbug" labelPosition="node" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/folder_512x512.png">
-        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@containerMappings[name='Folder']/@style"/>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_0tuBlLCXEeaRk6GFzdaaTA" name="app.css" width="20" height="20" resizeKind="NSEW">
+      <target xmi:type="dart:Stylesheet" href="sample.dartspec#//@packages.0/@assets.2/@assets.1/@assets.0"/>
+      <semanticElements xmi:type="dart:Stylesheet" href="sample.dartspec#//@packages.0/@assets.2/@assets.1/@assets.0"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_0tuBlbCXEeaRk6GFzdaaTA" labelSize="12" labelPosition="node" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/css_512x512.png">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='CSSFile']/@style"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@containerMappings[name='Folder']"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='CSSFile']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_9ZNQda_mEeaDkMQrUjkbug" name="decorators">
-      <target xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.0/@assets.1"/>
-      <semanticElements xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.0/@assets.1"/>
-      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_QOIvEK_nEeaDkMQrUjkbug" labelPosition="node" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/folder_512x512.png">
-        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@containerMappings[name='Folder']/@style"/>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_0tuBlrCXEeaRk6GFzdaaTA" name="app.scss" width="20" height="20" resizeKind="NSEW">
+      <target xmi:type="dart:Stylesheet" href="sample.dartspec#//@packages.0/@assets.2/@assets.1/@assets.1"/>
+      <semanticElements xmi:type="dart:Stylesheet" href="sample.dartspec#//@packages.0/@assets.2/@assets.1/@assets.1"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_0tuBl7CXEeaRk6GFzdaaTA" labelSize="12" labelPosition="node" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/css_512x512.png">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='CSSFile']/@style"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@containerMappings[name='Folder']"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='CSSFile']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_9ZNQdq_mEeaDkMQrUjkbug" name="models">
-      <target xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.0/@assets.2"/>
-      <semanticElements xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.0/@assets.2"/>
-      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_QOIvEa_nEeaDkMQrUjkbug" labelPosition="node" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/folder_512x512.png">
-        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@containerMappings[name='Folder']/@style"/>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_oK2sALCZEeaRk6GFzdaaTA" name="app.css" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="dart:Stylesheet" href="sample.dartspec#//@packages.0/@assets.2/@assets.1/@assets.0"/>
+      <semanticElements xmi:type="dart:Stylesheet" href="sample.dartspec#//@packages.0/@assets.2/@assets.1/@assets.0"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_oK2sAbCZEeaRk6GFzdaaTA" labelColor="125,125,125" borderColor="125,125,125">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='AssetFile']/@style"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@containerMappings[name='Folder']"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='AssetFile']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_9ZNQd6_mEeaDkMQrUjkbug" name="services">
-      <target xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.0/@assets.3"/>
-      <semanticElements xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.0/@assets.3"/>
-      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_QOIvEq_nEeaDkMQrUjkbug" labelPosition="node" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/folder_512x512.png">
-        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@containerMappings[name='Folder']/@style"/>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_oK3TELCZEeaRk6GFzdaaTA" name="app.scss" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="dart:Stylesheet" href="sample.dartspec#//@packages.0/@assets.2/@assets.1/@assets.1"/>
+      <semanticElements xmi:type="dart:Stylesheet" href="sample.dartspec#//@packages.0/@assets.2/@assets.1/@assets.1"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_oK3TEbCZEeaRk6GFzdaaTA" labelColor="125,125,125" borderColor="125,125,125">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='AssetFile']/@style"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@containerMappings[name='Folder']"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='AssetFile']"/>
     </ownedDiagramElements>
     <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']"/>
-    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_9ZNQeK_mEeaDkMQrUjkbug"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_0tuBmLCXEeaRk6GFzdaaTA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer"/>
+    <target xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.2/@assets.1"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_v7hL8bCZEeaRk6GFzdaaTA" name="PNG">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_v7hL8rCZEeaRk6GFzdaaTA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_v7hL87CZEeaRk6GFzdaaTA"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_v7hL_bCZEeaRk6GFzdaaTA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_v7hL_rCZEeaRk6GFzdaaTA" type="Sirius" element="_v7hL8bCZEeaRk6GFzdaaTA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_v7hMALCZEeaRk6GFzdaaTA" type="2001" element="_v7hL9LCZEeaRk6GFzdaaTA">
+          <children xmi:type="notation:Node" xmi:id="_v7hzALCZEeaRk6GFzdaaTA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_v7hzAbCZEeaRk6GFzdaaTA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v8ZVtbCZEeaRk6GFzdaaTA" type="3005" element="_v7hL9bCZEeaRk6GFzdaaTA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_v8ZVtrCZEeaRk6GFzdaaTA" fontName="Noto Sans"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v8ZVt7CZEeaRk6GFzdaaTA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_v7hMAbCZEeaRk6GFzdaaTA" fontName="Noto Sans" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v7hMArCZEeaRk6GFzdaaTA" width="512" height="512"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_v8YHkLCZEeaRk6GFzdaaTA" type="2001" element="_v7hL9rCZEeaRk6GFzdaaTA">
+          <children xmi:type="notation:Node" xmi:id="_v8YHk7CZEeaRk6GFzdaaTA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_v8YHlLCZEeaRk6GFzdaaTA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v8Z8wLCZEeaRk6GFzdaaTA" type="3005" element="_v7hL97CZEeaRk6GFzdaaTA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_v8Z8wbCZEeaRk6GFzdaaTA" fontName="Noto Sans"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v8Z8wrCZEeaRk6GFzdaaTA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_v8YHkbCZEeaRk6GFzdaaTA" fontName="Noto Sans" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v8YHkrCZEeaRk6GFzdaaTA" x="570" width="512" height="512"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_v8YuoLCZEeaRk6GFzdaaTA" type="2001" element="_v7hL-LCZEeaRk6GFzdaaTA">
+          <children xmi:type="notation:Node" xmi:id="_v8Yuo7CZEeaRk6GFzdaaTA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_v8YupLCZEeaRk6GFzdaaTA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v8Z8w7CZEeaRk6GFzdaaTA" type="3005" element="_v7hL-bCZEeaRk6GFzdaaTA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_v8Z8xLCZEeaRk6GFzdaaTA" fontName="Noto Sans"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v8Z8xbCZEeaRk6GFzdaaTA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_v8YuobCZEeaRk6GFzdaaTA" fontName="Noto Sans" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v8YuorCZEeaRk6GFzdaaTA" x="1145" width="512" height="512"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_v8ZVsLCZEeaRk6GFzdaaTA" type="2001" element="_v7hL-rCZEeaRk6GFzdaaTA">
+          <children xmi:type="notation:Node" xmi:id="_v8ZVs7CZEeaRk6GFzdaaTA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_v8ZVtLCZEeaRk6GFzdaaTA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v8aj0LCZEeaRk6GFzdaaTA" type="3005" element="_v7hL-7CZEeaRk6GFzdaaTA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_v8aj0bCZEeaRk6GFzdaaTA" fontName="Noto Sans"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v8aj0rCZEeaRk6GFzdaaTA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_v8ZVsbCZEeaRk6GFzdaaTA" fontName="Noto Sans" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v8ZVsrCZEeaRk6GFzdaaTA" x="1715" width="512" height="512"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_v7hL_7CZEeaRk6GFzdaaTA"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_v7hL9LCZEeaRk6GFzdaaTA" name="banner.png" width="20" height="20" resizeKind="NSEW">
+      <target xmi:type="dart:Asset" href="sample.dartspec#//@packages.0/@assets.2/@assets.2/@assets.0"/>
+      <semanticElements xmi:type="dart:Asset" href="sample.dartspec#//@packages.0/@assets.2/@assets.2/@assets.0"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_v7hL9bCZEeaRk6GFzdaaTA" labelPosition="node" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/png_512x512.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='AssetFile']/@conditionnalStyles.0/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='AssetFile']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_v7hL9rCZEeaRk6GFzdaaTA" name="logo.png" width="20" height="20" resizeKind="NSEW">
+      <target xmi:type="dart:Asset" href="sample.dartspec#//@packages.0/@assets.2/@assets.2/@assets.1"/>
+      <semanticElements xmi:type="dart:Asset" href="sample.dartspec#//@packages.0/@assets.2/@assets.2/@assets.1"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_v7hL97CZEeaRk6GFzdaaTA" labelPosition="node" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/png_512x512.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='AssetFile']/@conditionnalStyles.0/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='AssetFile']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_v7hL-LCZEeaRk6GFzdaaTA" name="user.png" width="20" height="20" resizeKind="NSEW">
+      <target xmi:type="dart:Asset" href="sample.dartspec#//@packages.0/@assets.2/@assets.2/@assets.2"/>
+      <semanticElements xmi:type="dart:Asset" href="sample.dartspec#//@packages.0/@assets.2/@assets.2/@assets.2"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_v7hL-bCZEeaRk6GFzdaaTA" labelPosition="node" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/png_512x512.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='AssetFile']/@conditionnalStyles.0/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='AssetFile']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_v7hL-rCZEeaRk6GFzdaaTA" name="icons.png" width="20" height="20" resizeKind="NSEW">
+      <target xmi:type="dart:Asset" href="sample.dartspec#//@packages.0/@assets.2/@assets.2/@assets.3"/>
+      <semanticElements xmi:type="dart:Asset" href="sample.dartspec#//@packages.0/@assets.2/@assets.2/@assets.3"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_v7hL-7CZEeaRk6GFzdaaTA" labelPosition="node" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/png_512x512.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='AssetFile']/@conditionnalStyles.0/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='AssetFile']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_v7hL_LCZEeaRk6GFzdaaTA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer"/>
+    <target xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.2/@assets.2"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_IDJy8LCdEeaRk6GFzdaaTA" name="HTML">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_IDJy8bCdEeaRk6GFzdaaTA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_IDJy8rCdEeaRk6GFzdaaTA"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_IDJzCrCdEeaRk6GFzdaaTA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_IDJzC7CdEeaRk6GFzdaaTA" type="Sirius" element="_IDJy8LCdEeaRk6GFzdaaTA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_IDJzDbCdEeaRk6GFzdaaTA" type="2001" element="_IDJy87CdEeaRk6GFzdaaTA">
+          <children xmi:type="notation:Node" xmi:id="_IDKaALCdEeaRk6GFzdaaTA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_IDKaAbCdEeaRk6GFzdaaTA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_IDWnQLCdEeaRk6GFzdaaTA" type="3005" element="_IDJy9LCdEeaRk6GFzdaaTA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_IDWnQbCdEeaRk6GFzdaaTA" fontName="Noto Sans"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IDWnQrCdEeaRk6GFzdaaTA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_IDJzDrCdEeaRk6GFzdaaTA" fontName="Noto Sans" fontHeight="12" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IDJzD7CdEeaRk6GFzdaaTA" width="200" height="200"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_IDKaArCdEeaRk6GFzdaaTA" type="2001" element="_IDJy9bCdEeaRk6GFzdaaTA">
+          <children xmi:type="notation:Node" xmi:id="_IDKaBbCdEeaRk6GFzdaaTA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_IDKaBrCdEeaRk6GFzdaaTA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_IDWnQ7CdEeaRk6GFzdaaTA" type="3005" element="_IDJy9rCdEeaRk6GFzdaaTA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_IDWnRLCdEeaRk6GFzdaaTA" fontName="Noto Sans"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IDWnRbCdEeaRk6GFzdaaTA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_IDKaA7CdEeaRk6GFzdaaTA" fontName="Noto Sans" fontHeight="12" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IDKaBLCdEeaRk6GFzdaaTA" x="260" width="200" height="200"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_IDKaB7CdEeaRk6GFzdaaTA" type="2001" element="_IDJy97CdEeaRk6GFzdaaTA">
+          <children xmi:type="notation:Node" xmi:id="_IDLBELCdEeaRk6GFzdaaTA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_IDLBEbCdEeaRk6GFzdaaTA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_IDXOULCdEeaRk6GFzdaaTA" type="3005" element="_IDJy-LCdEeaRk6GFzdaaTA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_IDXOUbCdEeaRk6GFzdaaTA" fontName="Noto Sans"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IDXOUrCdEeaRk6GFzdaaTA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_IDKaCLCdEeaRk6GFzdaaTA" fontName="Noto Sans" fontHeight="12" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IDKaCbCdEeaRk6GFzdaaTA" x="520" width="200" height="200"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_IDLBErCdEeaRk6GFzdaaTA" type="2001" element="_IDJy-bCdEeaRk6GFzdaaTA">
+          <children xmi:type="notation:Node" xmi:id="_IDLBFbCdEeaRk6GFzdaaTA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_IDLBFrCdEeaRk6GFzdaaTA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_IDXOU7CdEeaRk6GFzdaaTA" type="3005" element="_IDJy-rCdEeaRk6GFzdaaTA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_IDXOVLCdEeaRk6GFzdaaTA" fontName="Noto Sans"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IDXOVbCdEeaRk6GFzdaaTA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_IDLBE7CdEeaRk6GFzdaaTA" fontName="Noto Sans" fontHeight="12" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IDLBFLCdEeaRk6GFzdaaTA" x="780" width="200" height="200"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_IDLBF7CdEeaRk6GFzdaaTA" type="2001" element="_IDJy-7CdEeaRk6GFzdaaTA">
+          <children xmi:type="notation:Node" xmi:id="_IDLBGrCdEeaRk6GFzdaaTA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_IDLBG7CdEeaRk6GFzdaaTA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_IDXOVrCdEeaRk6GFzdaaTA" type="3005" element="_IDJy_LCdEeaRk6GFzdaaTA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_IDXOV7CdEeaRk6GFzdaaTA" fontName="Noto Sans"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IDXOWLCdEeaRk6GFzdaaTA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_IDLBGLCdEeaRk6GFzdaaTA" fontName="Noto Sans" fontHeight="12" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IDLBGbCdEeaRk6GFzdaaTA" x="1040" width="200" height="200"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_IDLoILCdEeaRk6GFzdaaTA" type="2001" element="_IDJy_bCdEeaRk6GFzdaaTA">
+          <children xmi:type="notation:Node" xmi:id="_IDNdULCdEeaRk6GFzdaaTA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_IDNdUbCdEeaRk6GFzdaaTA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_IDX1YLCdEeaRk6GFzdaaTA" type="3005" element="_IDJy_rCdEeaRk6GFzdaaTA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_IDX1YbCdEeaRk6GFzdaaTA" fontName="Noto Sans"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IDX1YrCdEeaRk6GFzdaaTA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_IDLoIbCdEeaRk6GFzdaaTA" fontName="Noto Sans" fontHeight="12" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IDLoIrCdEeaRk6GFzdaaTA" x="1300" width="200" height="200"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_IDOEYLCdEeaRk6GFzdaaTA" type="2001" element="_IDJy_7CdEeaRk6GFzdaaTA">
+          <children xmi:type="notation:Node" xmi:id="_IDOrcLCdEeaRk6GFzdaaTA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_IDOrcbCdEeaRk6GFzdaaTA" y="5"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_IDOEYbCdEeaRk6GFzdaaTA" fontName="Noto Sans"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IDOEYrCdEeaRk6GFzdaaTA" x="1560" width="10" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_IDOrcrCdEeaRk6GFzdaaTA" type="2001" element="_IDJzALCdEeaRk6GFzdaaTA">
+          <children xmi:type="notation:Node" xmi:id="_IDOrdbCdEeaRk6GFzdaaTA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_IDOrdrCdEeaRk6GFzdaaTA" y="5"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_IDOrc7CdEeaRk6GFzdaaTA" fontName="Noto Sans"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IDOrdLCdEeaRk6GFzdaaTA" x="1630" width="10" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_IDRuwLCdEeaRk6GFzdaaTA" type="2001" element="_IDJzAbCdEeaRk6GFzdaaTA">
+          <children xmi:type="notation:Node" xmi:id="_IDS84LCdEeaRk6GFzdaaTA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_IDS84bCdEeaRk6GFzdaaTA" y="5"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_IDRuwbCdEeaRk6GFzdaaTA" fontName="Noto Sans"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IDRuwrCdEeaRk6GFzdaaTA" x="1700" width="10" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_IDTj8LCdEeaRk6GFzdaaTA" type="2001" element="_IDJzArCdEeaRk6GFzdaaTA">
+          <children xmi:type="notation:Node" xmi:id="_IDTj87CdEeaRk6GFzdaaTA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_IDTj9LCdEeaRk6GFzdaaTA" y="5"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_IDTj8bCdEeaRk6GFzdaaTA" fontName="Noto Sans"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IDTj8rCdEeaRk6GFzdaaTA" x="1770" width="10" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_IDTj9bCdEeaRk6GFzdaaTA" type="2001" element="_IDJzA7CdEeaRk6GFzdaaTA">
+          <children xmi:type="notation:Node" xmi:id="_IDUyELCdEeaRk6GFzdaaTA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_IDUyEbCdEeaRk6GFzdaaTA" y="5"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_IDTj9rCdEeaRk6GFzdaaTA" fontName="Noto Sans"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IDTj97CdEeaRk6GFzdaaTA" x="1840" width="10" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_IDUyErCdEeaRk6GFzdaaTA" type="2001" element="_IDJzBLCdEeaRk6GFzdaaTA">
+          <children xmi:type="notation:Node" xmi:id="_IDUyFbCdEeaRk6GFzdaaTA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_IDUyFrCdEeaRk6GFzdaaTA" y="5"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_IDUyE7CdEeaRk6GFzdaaTA" fontName="Noto Sans"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IDUyFLCdEeaRk6GFzdaaTA" x="1910" width="10" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_IDVZILCdEeaRk6GFzdaaTA" type="2001" element="_IDJzBbCdEeaRk6GFzdaaTA">
+          <children xmi:type="notation:Node" xmi:id="_IDVZI7CdEeaRk6GFzdaaTA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_IDVZJLCdEeaRk6GFzdaaTA" y="5"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_IDVZIbCdEeaRk6GFzdaaTA" fontName="Noto Sans"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IDVZIrCdEeaRk6GFzdaaTA" x="1980" width="10" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_IDVZJbCdEeaRk6GFzdaaTA" type="2001" element="_IDJzBrCdEeaRk6GFzdaaTA">
+          <children xmi:type="notation:Node" xmi:id="_IDVZKLCdEeaRk6GFzdaaTA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_IDVZKbCdEeaRk6GFzdaaTA" y="5"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_IDVZJrCdEeaRk6GFzdaaTA" fontName="Noto Sans"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IDVZJ7CdEeaRk6GFzdaaTA" x="2050" width="10" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_IDWAMLCdEeaRk6GFzdaaTA" type="2001" element="_IDJzB7CdEeaRk6GFzdaaTA">
+          <children xmi:type="notation:Node" xmi:id="_IDWAM7CdEeaRk6GFzdaaTA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_IDWANLCdEeaRk6GFzdaaTA" y="5"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_IDWAMbCdEeaRk6GFzdaaTA" fontName="Noto Sans"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IDWAMrCdEeaRk6GFzdaaTA" x="2120" width="10" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_IDWANbCdEeaRk6GFzdaaTA" type="2001" element="_IDJzCLCdEeaRk6GFzdaaTA">
+          <children xmi:type="notation:Node" xmi:id="_IDWAOLCdEeaRk6GFzdaaTA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_IDWAObCdEeaRk6GFzdaaTA" y="5"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_IDWANrCdEeaRk6GFzdaaTA" fontName="Noto Sans"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IDWAN7CdEeaRk6GFzdaaTA" x="2190" width="10" height="20"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_IDJzDLCdEeaRk6GFzdaaTA"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_IDJy87CdEeaRk6GFzdaaTA" name="agenda.html" width="20" height="20" resizeKind="NSEW">
+      <target xmi:type="dart:HTML" href="sample.dartspec#//@packages.0/@assets.0/@assets.0/@assets.0"/>
+      <semanticElements xmi:type="dart:HTML" href="sample.dartspec#//@packages.0/@assets.0/@assets.0/@assets.0"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_IDJy9LCdEeaRk6GFzdaaTA" labelSize="12" labelPosition="node" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/html_512x512.png">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='HTMLFile']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='HTMLFile']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_IDJy9bCdEeaRk6GFzdaaTA" name="call.html" width="20" height="20" resizeKind="NSEW">
+      <target xmi:type="dart:HTML" href="sample.dartspec#//@packages.0/@assets.0/@assets.0/@assets.3"/>
+      <semanticElements xmi:type="dart:HTML" href="sample.dartspec#//@packages.0/@assets.0/@assets.0/@assets.3"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_IDJy9rCdEeaRk6GFzdaaTA" labelSize="12" labelPosition="node" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/html_512x512.png">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='HTMLFile']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='HTMLFile']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_IDJy97CdEeaRk6GFzdaaTA" name="create_call.html" width="20" height="20" resizeKind="NSEW">
+      <target xmi:type="dart:HTML" href="sample.dartspec#//@packages.0/@assets.0/@assets.0/@assets.6"/>
+      <semanticElements xmi:type="dart:HTML" href="sample.dartspec#//@packages.0/@assets.0/@assets.0/@assets.6"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_IDJy-LCdEeaRk6GFzdaaTA" labelSize="12" labelPosition="node" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/html_512x512.png">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='HTMLFile']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='HTMLFile']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_IDJy-bCdEeaRk6GFzdaaTA" name="Agenda" width="20" height="20" resizeKind="NSEW">
+      <target xmi:type="dart:Component" href="sample.dartspec#//@packages.0/@assets.0/@assets.0/@assets.1"/>
+      <semanticElements xmi:type="dart:Component" href="sample.dartspec#//@packages.0/@assets.0/@assets.0/@assets.1"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_IDJy-rCdEeaRk6GFzdaaTA" labelSize="12" labelPosition="node" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/component_512x512.png">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='AJSComponentFile']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='AJSComponentFile']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_IDJy-7CdEeaRk6GFzdaaTA" name="Call" width="20" height="20" resizeKind="NSEW">
+      <target xmi:type="dart:Component" href="sample.dartspec#//@packages.0/@assets.0/@assets.0/@assets.5"/>
+      <semanticElements xmi:type="dart:Component" href="sample.dartspec#//@packages.0/@assets.0/@assets.0/@assets.5"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_IDJy_LCdEeaRk6GFzdaaTA" labelSize="12" labelPosition="node" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/component_512x512.png">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='AJSComponentFile']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='AJSComponentFile']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_IDJy_bCdEeaRk6GFzdaaTA" name="CreateCall" width="20" height="20" resizeKind="NSEW">
+      <target xmi:type="dart:Component" href="sample.dartspec#//@packages.0/@assets.0/@assets.0/@assets.8"/>
+      <semanticElements xmi:type="dart:Component" href="sample.dartspec#//@packages.0/@assets.0/@assets.0/@assets.8"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_IDJy_rCdEeaRk6GFzdaaTA" labelSize="12" labelPosition="node" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/component_512x512.png">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='AJSComponentFile']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='AJSComponentFile']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_IDJy_7CdEeaRk6GFzdaaTA">
+      <target xmi:type="dart:HTML" href="sample.dartspec#//@packages.0/@assets.0/@assets.0/@assets.0"/>
+      <semanticElements xmi:type="dart:HTML" href="sample.dartspec#//@packages.0/@assets.0/@assets.0/@assets.0"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='AssetFile']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_IDJzALCdEeaRk6GFzdaaTA">
+      <target xmi:type="dart:Component" href="sample.dartspec#//@packages.0/@assets.0/@assets.0/@assets.1"/>
+      <semanticElements xmi:type="dart:Component" href="sample.dartspec#//@packages.0/@assets.0/@assets.0/@assets.1"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='AssetFile']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_IDJzAbCdEeaRk6GFzdaaTA">
+      <target xmi:type="dart:Class" href="sample.dartspec#//@packages.0/@assets.0/@assets.0/@assets.2"/>
+      <semanticElements xmi:type="dart:Class" href="sample.dartspec#//@packages.0/@assets.0/@assets.0/@assets.2"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='AssetFile']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_IDJzArCdEeaRk6GFzdaaTA">
+      <target xmi:type="dart:HTML" href="sample.dartspec#//@packages.0/@assets.0/@assets.0/@assets.3"/>
+      <semanticElements xmi:type="dart:HTML" href="sample.dartspec#//@packages.0/@assets.0/@assets.0/@assets.3"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='AssetFile']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_IDJzA7CdEeaRk6GFzdaaTA">
+      <target xmi:type="dart:Class" href="sample.dartspec#//@packages.0/@assets.0/@assets.0/@assets.4"/>
+      <semanticElements xmi:type="dart:Class" href="sample.dartspec#//@packages.0/@assets.0/@assets.0/@assets.4"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='AssetFile']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_IDJzBLCdEeaRk6GFzdaaTA">
+      <target xmi:type="dart:Component" href="sample.dartspec#//@packages.0/@assets.0/@assets.0/@assets.5"/>
+      <semanticElements xmi:type="dart:Component" href="sample.dartspec#//@packages.0/@assets.0/@assets.0/@assets.5"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='AssetFile']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_IDJzBbCdEeaRk6GFzdaaTA">
+      <target xmi:type="dart:HTML" href="sample.dartspec#//@packages.0/@assets.0/@assets.0/@assets.6"/>
+      <semanticElements xmi:type="dart:HTML" href="sample.dartspec#//@packages.0/@assets.0/@assets.0/@assets.6"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='AssetFile']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_IDJzBrCdEeaRk6GFzdaaTA">
+      <target xmi:type="dart:Class" href="sample.dartspec#//@packages.0/@assets.0/@assets.0/@assets.7"/>
+      <semanticElements xmi:type="dart:Class" href="sample.dartspec#//@packages.0/@assets.0/@assets.0/@assets.7"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='AssetFile']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_IDJzB7CdEeaRk6GFzdaaTA">
+      <target xmi:type="dart:Component" href="sample.dartspec#//@packages.0/@assets.0/@assets.0/@assets.8"/>
+      <semanticElements xmi:type="dart:Component" href="sample.dartspec#//@packages.0/@assets.0/@assets.0/@assets.8"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='AssetFile']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_IDJzCLCdEeaRk6GFzdaaTA">
+      <target xmi:type="dart:Class" href="sample.dartspec#//@packages.0/@assets.0/@assets.0/@assets.9"/>
+      <semanticElements xmi:type="dart:Class" href="sample.dartspec#//@packages.0/@assets.0/@assets.0/@assets.9"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='AssetFile']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_IDJzCbCdEeaRk6GFzdaaTA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer"/>
+    <target xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.0/@assets.0"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_8vFKwbCpEeaRk6GFzdaaTA" name="folder">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_8vFKwrCpEeaRk6GFzdaaTA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_8vFKw7CpEeaRk6GFzdaaTA"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_8vFK0bCpEeaRk6GFzdaaTA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_8vFK0rCpEeaRk6GFzdaaTA" type="Sirius" element="_8vFKwbCpEeaRk6GFzdaaTA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_8vFK1LCpEeaRk6GFzdaaTA" type="2001" element="_8vFKxLCpEeaRk6GFzdaaTA">
+          <children xmi:type="notation:Node" xmi:id="_8vFx0LCpEeaRk6GFzdaaTA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_8vFx0bCpEeaRk6GFzdaaTA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_8vHnBbCpEeaRk6GFzdaaTA" type="3005" element="_8vFKxbCpEeaRk6GFzdaaTA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_8vHnBrCpEeaRk6GFzdaaTA" fontName="Noto Sans"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8vHnB7CpEeaRk6GFzdaaTA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_8vFK1bCpEeaRk6GFzdaaTA" fontName="Noto Sans" fontHeight="12" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8vFK1rCpEeaRk6GFzdaaTA" width="200" height="200"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_8vFx0rCpEeaRk6GFzdaaTA" type="2001" element="_8vFKxrCpEeaRk6GFzdaaTA">
+          <children xmi:type="notation:Node" xmi:id="_8vFx1bCpEeaRk6GFzdaaTA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_8vFx1rCpEeaRk6GFzdaaTA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_8vIOELCpEeaRk6GFzdaaTA" type="3005" element="_8vFKx7CpEeaRk6GFzdaaTA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_8vIOEbCpEeaRk6GFzdaaTA" fontName="Noto Sans"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8vIOErCpEeaRk6GFzdaaTA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_8vFx07CpEeaRk6GFzdaaTA" fontName="Noto Sans" fontHeight="12" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8vFx1LCpEeaRk6GFzdaaTA" x="260" width="200" height="200"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_8vFx17CpEeaRk6GFzdaaTA" type="2001" element="_8vFKyLCpEeaRk6GFzdaaTA">
+          <children xmi:type="notation:Node" xmi:id="_8vFx2rCpEeaRk6GFzdaaTA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_8vFx27CpEeaRk6GFzdaaTA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_8vIOE7CpEeaRk6GFzdaaTA" type="3005" element="_8vFKybCpEeaRk6GFzdaaTA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_8vIOFLCpEeaRk6GFzdaaTA" fontName="Noto Sans"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8vIOFbCpEeaRk6GFzdaaTA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_8vFx2LCpEeaRk6GFzdaaTA" fontName="Noto Sans" fontHeight="12" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8vFx2bCpEeaRk6GFzdaaTA" x="520" width="200" height="200"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_8vGY4LCpEeaRk6GFzdaaTA" type="2001" element="_8vFKyrCpEeaRk6GFzdaaTA">
+          <children xmi:type="notation:Node" xmi:id="_8vGY47CpEeaRk6GFzdaaTA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_8vGY5LCpEeaRk6GFzdaaTA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_8vIOFrCpEeaRk6GFzdaaTA" type="3005" element="_8vFKy7CpEeaRk6GFzdaaTA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_8vIOF7CpEeaRk6GFzdaaTA" fontName="Noto Sans"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8vIOGLCpEeaRk6GFzdaaTA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_8vGY4bCpEeaRk6GFzdaaTA" fontName="Noto Sans" fontHeight="12" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8vGY4rCpEeaRk6GFzdaaTA" x="780" width="200" height="200"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_8vGY5bCpEeaRk6GFzdaaTA" type="2001" element="_8vFKzLCpEeaRk6GFzdaaTA">
+          <children xmi:type="notation:Node" xmi:id="_8vGY6LCpEeaRk6GFzdaaTA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_8vGY6bCpEeaRk6GFzdaaTA" y="5"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_8vGY5rCpEeaRk6GFzdaaTA" fontName="Noto Sans"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8vGY57CpEeaRk6GFzdaaTA" x="1040" width="10" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_8vG_8LCpEeaRk6GFzdaaTA" type="2001" element="_8vFKzbCpEeaRk6GFzdaaTA">
+          <children xmi:type="notation:Node" xmi:id="_8vG_87CpEeaRk6GFzdaaTA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_8vG_9LCpEeaRk6GFzdaaTA" y="5"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_8vG_8bCpEeaRk6GFzdaaTA" fontName="Noto Sans"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8vG_8rCpEeaRk6GFzdaaTA" x="1110" width="10" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_8vG_9bCpEeaRk6GFzdaaTA" type="2001" element="_8vFKzrCpEeaRk6GFzdaaTA">
+          <children xmi:type="notation:Node" xmi:id="_8vG_-LCpEeaRk6GFzdaaTA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_8vG_-bCpEeaRk6GFzdaaTA" y="5"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_8vG_9rCpEeaRk6GFzdaaTA" fontName="Noto Sans"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8vG_97CpEeaRk6GFzdaaTA" x="1180" width="10" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_8vHnALCpEeaRk6GFzdaaTA" type="2001" element="_8vFKz7CpEeaRk6GFzdaaTA">
+          <children xmi:type="notation:Node" xmi:id="_8vHnA7CpEeaRk6GFzdaaTA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_8vHnBLCpEeaRk6GFzdaaTA" y="5"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_8vHnAbCpEeaRk6GFzdaaTA" fontName="Noto Sans"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8vHnArCpEeaRk6GFzdaaTA" x="1250" width="10" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_NY6q0LCqEeaRk6GFzdaaTA" type="2001" element="_NYt2gLCqEeaRk6GFzdaaTA">
+          <children xmi:type="notation:Node" xmi:id="_NY7R4LCqEeaRk6GFzdaaTA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_NY7R4bCqEeaRk6GFzdaaTA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_eESfILCuEeaRk6GFzdaaTA" type="3005" element="_eEO0wLCuEeaRk6GFzdaaTA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_eESfIbCuEeaRk6GFzdaaTA" fontName="Noto Sans"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eESfIrCuEeaRk6GFzdaaTA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_NY6q0bCqEeaRk6GFzdaaTA" fontName="Noto Sans" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NY6q0rCqEeaRk6GFzdaaTA" x="1100" y="100" width="200" height="200"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_NY7R4rCqEeaRk6GFzdaaTA" type="2001" element="_NY6DwLCqEeaRk6GFzdaaTA">
+          <children xmi:type="notation:Node" xmi:id="_NY748LCqEeaRk6GFzdaaTA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_NY748bCqEeaRk6GFzdaaTA" y="5"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_NY7R47CqEeaRk6GFzdaaTA" fontName="Noto Sans"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NY7R5LCqEeaRk6GFzdaaTA" x="1130" y="130" width="20" height="20"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_8vFK07CpEeaRk6GFzdaaTA"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_8vFKxLCpEeaRk6GFzdaaTA" name="components" width="20" height="20" resizeKind="NSEW">
+      <target xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.0/@assets.0"/>
+      <semanticElements xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.0/@assets.0"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_8vFKxbCpEeaRk6GFzdaaTA" labelSize="12" labelPosition="node" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/folder_documents_512x512.png">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='SubFolder']/@conditionnalStyles.0/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='SubFolder']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_8vFKxrCpEeaRk6GFzdaaTA" name="decorators" width="20" height="20" resizeKind="NSEW">
+      <target xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.0/@assets.1"/>
+      <semanticElements xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.0/@assets.1"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_8vFKx7CpEeaRk6GFzdaaTA" labelSize="12" labelPosition="node" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/folder_documents_512x512.png">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='SubFolder']/@conditionnalStyles.0/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='SubFolder']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_8vFKyLCpEeaRk6GFzdaaTA" name="models" width="20" height="20" resizeKind="NSEW">
+      <target xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.0/@assets.2"/>
+      <semanticElements xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.0/@assets.2"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_8vFKybCpEeaRk6GFzdaaTA" labelSize="12" labelPosition="node" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/folder_documents_512x512.png">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='SubFolder']/@conditionnalStyles.0/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='SubFolder']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_8vFKyrCpEeaRk6GFzdaaTA" name="services" width="20" height="20" resizeKind="NSEW">
+      <target xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.0/@assets.3"/>
+      <semanticElements xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.0/@assets.3"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_8vFKy7CpEeaRk6GFzdaaTA" labelSize="12" labelPosition="node" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/folder_documents_512x512.png">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='SubFolder']/@conditionnalStyles.0/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='SubFolder']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_NYt2gLCqEeaRk6GFzdaaTA" name="new folder" width="20" height="20" resizeKind="NSEW">
+      <target xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.0/@assets.4"/>
+      <semanticElements xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.0/@assets.4"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_eEO0wLCuEeaRk6GFzdaaTA" labelSize="12" labelPosition="node" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/folder_512x512.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='SubFolder']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='SubFolder']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_8vFKzLCpEeaRk6GFzdaaTA">
+      <target xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.0/@assets.0"/>
+      <semanticElements xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.0/@assets.0"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='AssetFile']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_8vFKzbCpEeaRk6GFzdaaTA">
+      <target xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.0/@assets.1"/>
+      <semanticElements xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.0/@assets.1"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='AssetFile']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_8vFKzrCpEeaRk6GFzdaaTA">
+      <target xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.0/@assets.2"/>
+      <semanticElements xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.0/@assets.2"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='AssetFile']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_8vFKz7CpEeaRk6GFzdaaTA">
+      <target xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.0/@assets.3"/>
+      <semanticElements xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.0/@assets.3"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='AssetFile']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_NY6DwLCqEeaRk6GFzdaaTA">
+      <target xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.0/@assets.4"/>
+      <semanticElements xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.0/@assets.4"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='AssetFile']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_8vFK0LCpEeaRk6GFzdaaTA"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer"/>
     <target xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.0"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_Ld4FAbCrEeaRk6GFzdaaTA" name="Folder-test">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_Ld4FArCrEeaRk6GFzdaaTA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_Ld4FA7CrEeaRk6GFzdaaTA"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_Ld4FBbCrEeaRk6GFzdaaTA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_Ld4FBrCrEeaRk6GFzdaaTA" type="Sirius" element="_Ld4FAbCrEeaRk6GFzdaaTA" measurementUnit="Pixel">
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_Ld4FB7CrEeaRk6GFzdaaTA"/>
+      </data>
+    </ownedAnnotationEntries>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_Ld4FBLCrEeaRk6GFzdaaTA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer"/>
+    <target xmi:type="dart:Folder" href="sample.dartspec#//@packages.0/@assets.0/@assets.4"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_Sn57YLCuEeaRk6GFzdaaTA" name="Explorer_Diagram">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_Sn57YbCuEeaRk6GFzdaaTA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_Sn57YrCuEeaRk6GFzdaaTA"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_Sn57ZLCuEeaRk6GFzdaaTA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_Sn57ZbCuEeaRk6GFzdaaTA" type="Sirius" element="_Sn57YLCuEeaRk6GFzdaaTA" measurementUnit="Pixel">
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_Sn57ZrCuEeaRk6GFzdaaTA"/>
+      </data>
+    </ownedAnnotationEntries>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_Sn57Y7CuEeaRk6GFzdaaTA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fr.univnantes.alma.dsl.dart.design/description/dart.odesign#//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer"/>
   </diagram:DSemanticDiagram>
 </xmi:XMI>

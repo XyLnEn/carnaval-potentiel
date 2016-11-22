@@ -105,6 +105,7 @@
           </methods>
         </assets>
       </assets>
+      <assets xsi:type="dart:Folder" name="new folder"/>
     </assets>
     <assets xsi:type="dart:Folder" name="test">
       <assets xsi:type="dart:Folder" name="unit"/>
