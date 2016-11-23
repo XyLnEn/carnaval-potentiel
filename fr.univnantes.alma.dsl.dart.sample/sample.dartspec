@@ -32,7 +32,6 @@
           <methods name="create"/>
         </assets>
         <assets xsi:type="dart:Component" name="CreateCall" extends="//@packages.0/@assets.0/@assets.0/@assets.7" template="//@packages.0/@assets.0/@assets.0/@assets.6" selector="create-call"/>
-        <assets xsi:type="dart:Class" name="newClass"/>
       </assets>
       <assets xsi:type="dart:Folder" name="decorators">
         <assets xsi:type="dart:Decorator" name="Toggle">
@@ -105,7 +104,10 @@
           </methods>
         </assets>
       </assets>
-      <assets xsi:type="dart:Folder" name="new folder"/>
+      <assets xsi:type="dart:Folder" name="new">
+        <assets xsi:type="dart:Class" name="Abstractreee" abstract="true"/>
+        <assets xsi:type="dart:Class" name="lol" extends="//@packages.0/@assets.0/@assets.4/@assets.0"/>
+      </assets>
     </assets>
     <assets xsi:type="dart:Folder" name="test">
       <assets xsi:type="dart:Folder" name="unit"/>
