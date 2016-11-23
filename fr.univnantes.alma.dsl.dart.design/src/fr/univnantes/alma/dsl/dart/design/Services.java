@@ -1,6 +1,9 @@
 package fr.univnantes.alma.dsl.dart.design;
 
+import java.util.List;
+
 import org.eclipse.emf.ecore.EObject;
+
 
 /**
  * The services class used by VSM.
@@ -14,4 +17,10 @@ public class Services {
        // TODO Auto-generated code
       return self;
     }
+    
+    public void setParent(Class source, Class target) {
+    	if (source != target) {
+    		
+    	}
+	}
 }
