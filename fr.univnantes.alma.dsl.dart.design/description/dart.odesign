@@ -143,12 +143,12 @@
           </style>
         </nodeMappings>
         <nodeMappings name="SubFolder" semanticCandidatesExpression="feature:assets" doubleClickDescription="//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='exploreFolder']" domainClass="dart.Folder">
-          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="20" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/folder_512x512.png">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" sizeComputationExpression="20" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/folder_512x512.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
           <conditionnalStyles predicateExpression="aql:self.assets->size() > 0">
-            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="20" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/folder_documents_512x512.png">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" sizeComputationExpression="20" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/folder_documents_512x512.png">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelFormat>bold</labelFormat>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
@@ -156,77 +156,77 @@
           </conditionnalStyles>
         </nodeMappings>
         <nodeMappings name="CSSFile" semanticCandidatesExpression="feature:assets" domainClass="dart.Stylesheet">
-          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="20" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/css_512x512.png">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="20" resizeKind="NSEW" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/css_512x512.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelFormat>bold</labelFormat>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
         </nodeMappings>
         <nodeMappings name="AJSModuleFile" semanticCandidatesExpression="feature:assets" domainClass="dart.Module">
-          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="20" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/module_512x512.png">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="11" sizeComputationExpression="20" resizeKind="NSEW" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/module_512x512.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelFormat>bold</labelFormat>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
         </nodeMappings>
         <nodeMappings name="AJSControlerFile" semanticCandidatesExpression="feature:assets" domainClass="dart.Controller">
-          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="20" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/controller_512x512.png">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="20" resizeKind="NSEW" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/controller_512x512.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelFormat>bold</labelFormat>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
         </nodeMappings>
         <nodeMappings name="AJSComponentFile" semanticCandidatesExpression="feature:assets" domainClass="dart.Component">
-          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="20" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/component_512x512.png">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="20" resizeKind="NSEW" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/component_512x512.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelFormat>bold</labelFormat>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
         </nodeMappings>
         <nodeMappings name="AJSDecoratorFile" semanticCandidatesExpression="feature:assets" domainClass="dart.Decorator">
-          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="20" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/decorator_512x512.png">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="20" resizeKind="NSEW" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/decorator_512x512.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelFormat>bold</labelFormat>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
         </nodeMappings>
         <nodeMappings name="AJSFormatterFile" semanticCandidatesExpression="feature:assets" domainClass="dart.Formatter">
-          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="20" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/formatter_512x512.png">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="20" resizeKind="NSEW" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/formatter_512x512.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelFormat>bold</labelFormat>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
         </nodeMappings>
         <nodeMappings name="AssetPNG" preconditionExpression="aql:self.name.contains('.png')" semanticCandidatesExpression="feature:assets" domainClass="dart.Asset">
-          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="20" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/png_512x512.png">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="20" resizeKind="NSEW" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/png_512x512.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelFormat>bold</labelFormat>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
         </nodeMappings>
         <nodeMappings name="AssetJPEG" preconditionExpression="aql:self.name.contains('.jpeg')" semanticCandidatesExpression="feature:assets" domainClass="dart.Asset">
-          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="20" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/jpeg_512x512.png">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="20" resizeKind="NSEW" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/jpeg_512x512.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelFormat>bold</labelFormat>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
         </nodeMappings>
         <nodeMappings name="AssetGIF" preconditionExpression="aql:self.name.contains('.gif')" semanticCandidatesExpression="feature:assets" domainClass="dart.Asset">
-          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="20" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/gif_512x512.png">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="20" resizeKind="NSEW" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/gif_512x512.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelFormat>bold</labelFormat>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
         </nodeMappings>
         <nodeMappings name="AssetClass" preconditionExpression="aql:not (self.oclIsKindOf(dart::AngularType) or self.oclIsKindOf(dart::Variable) or self.oclIsKindOf(dart::Module) or self.oclIsKindOf(dart::Stylesheet) or self.oclIsKindOf(dart::HTML))" semanticCandidatesExpression="feature:assets" domainClass="dart.Class">
-          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="20" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/dart_512x512.png">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="20" resizeKind="NSEW" workspacePath="/fr.univnantes.alma.dsl.dart.design/icons/explorer/dart_512x512.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelFormat>bold</labelFormat>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
         </nodeMappings>
         <toolSections name="creation">
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="newSubFolder" nodeMappings="//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='SubFolder']">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="newSubFolder" nodeMappings="//@ownedViewpoints[name='Developer']/@ownedRepresentations[name='Explorer_Diagram']/@defaultLayer/@nodeMappings[name='SubFolder']" iconPath="/fr.univnantes.alma.dsl.dart.design/icons/full/etool16/NewDartDesignerProject.png">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>

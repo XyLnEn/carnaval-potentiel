@@ -106,7 +106,9 @@
       </assets>
       <assets xsi:type="dart:Folder" name="new">
         <assets xsi:type="dart:Class" name="Abstractreee" abstract="true"/>
-        <assets xsi:type="dart:Class" name="lol" extends="//@packages.0/@assets.0/@assets.4/@assets.0"/>
+        <assets xsi:type="dart:Class" name="lol" extends="//@packages.0/@assets.0/@assets.4/@assets.3"/>
+        <assets xsi:type="dart:Class" name="newClass"/>
+        <assets xsi:type="dart:Class" name="newClass"/>
       </assets>
     </assets>
     <assets xsi:type="dart:Folder" name="test">
