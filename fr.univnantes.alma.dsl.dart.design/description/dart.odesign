@@ -16,7 +16,7 @@
       </validationSet>
       <layout xsi:type="description_1:CompositeLayout"/>
       <defaultLayer name="clown">
-        <edgeMappings name="extends" sourceMapping="//@ownedViewpoints[name='Architect']/@ownedRepresentations[name='Class_Diagram']/@defaultLayer/@containerMappings[name='class']" targetMapping="//@ownedViewpoints[name='Architect']/@ownedRepresentations[name='Class_Diagram']/@defaultLayer/@containerMappings[name='class']" targetFinderExpression="feature:extends" reconnections="//@ownedViewpoints[name='Architect']/@ownedRepresentations[name='Class_Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='parent'] //@ownedViewpoints[name='Architect']/@ownedRepresentations[name='Class_Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='source']">
+        <edgeMappings name="extends" sourceMapping="//@ownedViewpoints[name='Architect']/@ownedRepresentations[name='Class_Diagram']/@defaultLayer/@containerMappings[name='class']" targetMapping="//@ownedViewpoints[name='Architect']/@ownedRepresentations[name='Class_Diagram']/@defaultLayer/@containerMappings[name='class']" targetFinderExpression="feature:extends" reconnections="//@ownedViewpoints[name='Architect']/@ownedRepresentations[name='Class_Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='parent']">
           <style sizeComputationExpression="2" routingStyle="manhattan">
             <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <centerLabelStyleDescription>
@@ -108,17 +108,6 @@
             </initialOperation>
           </ownedTools>
           <ownedTools xsi:type="tool:ReconnectEdgeDescription" name="parent">
-            <source name="source"/>
-            <target name="target"/>
-            <sourceView name="sourceView"/>
-            <targetView name="targetView"/>
-            <element name="element"/>
-            <initialOperation>
-              <firstModelOperations xsi:type="tool_1:SetValue" featureName="extends" valueExpression="aql:target"/>
-            </initialOperation>
-            <edgeView name="edgeView"/>
-          </ownedTools>
-          <ownedTools xsi:type="tool:ReconnectEdgeDescription" name="source" reconnectionKind="RECONNECT_SOURCE">
             <source name="source"/>
             <target name="target"/>
             <sourceView name="sourceView"/>
