@@ -87,6 +87,17 @@
               <firstModelOperations xsi:type="tool_1:SetValue" featureName="extends" valueExpression="aql:target"/>
             </initialOperation>
           </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="creaFunction" nodeMappings="//@ownedViewpoints[name='Architect']/@ownedRepresentations[name='Class_Diagram']/@defaultLayer/@containerMappings[name='class']/@subNodeMappings[name='function']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="dart.Function" referenceName="methods">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="newFunc"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
         </toolSections>
         <toolSections name="edit">
           <ownedTools xsi:type="tool:DirectEditLabel" name="renameClass">
@@ -338,12 +349,14 @@
           <firstModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:newValue"/>
         </initialOperation>
       </controls>
-      <controls xsi:type="properties:CheckboxDescription" labelExpression="isAbstractTTTT" valueExpression="aql:self.abstract">
+      <controls xsi:type="properties:CheckboxDescription" labelExpression="isAbstract" valueExpression="aql:self.abstract">
         <initialOperation>
           <firstModelOperations xsi:type="tool_1:SetValue" featureName="abstract" valueExpression="var:newValue"/>
         </initialOperation>
       </controls>
-      <controls xsi:type="properties-ext-widgets-reference:ExtReferenceDescription" labelExpression="feature:extends" referenceNameExpression="extends" referenceOwnerExpression="var:self"/>
+      <controls xsi:type="properties-ext-widgets-reference:ExtReferenceDescription" labelExpression="feature:extends" helpExpression="parent" referenceNameExpression="extends" referenceOwnerExpression="var:self"/>
+      <controls xsi:type="properties:ListDescription" labelExpression="attributes" valueExpression="aql: self.fields.name" displayExpression="var:value"/>
+      <controls xsi:type="properties:ListDescription" labelExpression="functions" valueExpression="aql: self.methods.name" displayExpression="var:value"/>
       <validationSet>
         <semanticValidationRules name="CorrectAbstractName" level="WARNING" message="This class is abstract. It's name must start with &quot;Abstract&quot;" targetClass="dart.Class">
           <audits auditExpression="aql: not self.abstract or self.name.startsWith('Abstract')"/>

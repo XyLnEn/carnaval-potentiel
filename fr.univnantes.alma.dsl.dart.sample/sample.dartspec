@@ -105,10 +105,21 @@
         </assets>
       </assets>
       <assets xsi:type="dart:Folder" name="new">
-        <assets xsi:type="dart:Class" name="Abstractreee" abstract="true"/>
-        <assets xsi:type="dart:Class" name="lol" extends="//@packages.0/@assets.0/@assets.4/@assets.3"/>
+        <assets xsi:type="dart:Class" name="Abstractreee" abstract="true">
+          <methods name="newFunc"/>
+        </assets>
+        <assets xsi:type="dart:Class" name="g" extends="//@packages.0/@assets.0/@assets.4/@assets.3">
+          <fields name="lolilol"/>
+          <methods name="newFunc"/>
+        </assets>
         <assets xsi:type="dart:Class" name="newClass"/>
-        <assets xsi:type="dart:Class" name="newClass"/>
+        <assets xsi:type="dart:Class" name="azerty" extends="//@packages.0/@assets.0/@assets.4/@assets.0">
+          <fields name="a"/>
+          <fields name="b"/>
+          <fields name="c"/>
+          <methods name="d"/>
+          <methods name="e"/>
+        </assets>
       </assets>
     </assets>
     <assets xsi:type="dart:Folder" name="test">
