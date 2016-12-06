@@ -342,7 +342,7 @@
     <entries xsi:type="description:UserFixedColor" red="229" green="252" blue="194" name="pancakes"/>
   </userColorsPalettes>
   <extensions xsi:type="properties:ViewExtensionDescription" identifier="Properties">
-    <pages identifier="Default" labelExpression="Page" semanticCandidateExpression="var:self" groups="//@extensions.0/@groups.0"/>
+    <pages identifier="Default" labelExpression="Page" semanticCandidateExpression="var:self" groups="//@extensions.0/@groups.0 //@extensions.0/@groups.1 //@extensions.0/@groups.2"/>
     <groups identifier="Default" labelExpression="Properties" domainClass="dart.Class" semanticCandidateExpression="var:self">
       <controls xsi:type="properties:TextDescription" labelExpression="name" valueExpression="feature:name">
         <initialOperation>
@@ -355,8 +355,6 @@
         </initialOperation>
       </controls>
       <controls xsi:type="properties-ext-widgets-reference:ExtReferenceDescription" labelExpression="feature:extends" helpExpression="parent" referenceNameExpression="extends" referenceOwnerExpression="var:self"/>
-      <controls xsi:type="properties:ListDescription" labelExpression="attributes" valueExpression="aql: self.fields.name" displayExpression="var:value"/>
-      <controls xsi:type="properties:ListDescription" labelExpression="functions" valueExpression="aql: self.methods.name" displayExpression="var:value"/>
       <validationSet>
         <semanticValidationRules name="CorrectAbstractName" level="WARNING" message="This class is abstract. It's name must start with &quot;Abstract&quot;" targetClass="dart.Class">
           <audits auditExpression="aql: not self.abstract or self.name.startsWith('Abstract')"/>
@@ -367,6 +365,32 @@
           </fixes>
         </semanticValidationRules>
       </validationSet>
+    </groups>
+    <groups identifier="Attributes" labelExpression="Attributes" domainClass="dart.Class" semanticCandidateExpression="var:self">
+      <controls xsi:type="properties:DynamicMappingFor" iterator="field" iterableExpression="aql:self.fields">
+        <ifs predicateExpression="aql:true">
+          <widget xsi:type="properties:TextDescription" valueExpression="aql:field.name">
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:field">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:newValue"/>
+              </firstModelOperations>
+            </initialOperation>
+          </widget>
+        </ifs>
+      </controls>
+    </groups>
+    <groups identifier="Methods" labelExpression="Methods" domainClass="dart.Class" semanticCandidateExpression="var:self">
+      <controls xsi:type="properties:DynamicMappingFor" iterator="field" iterableExpression="aql:self.methods">
+        <ifs predicateExpression="aql:true">
+          <widget xsi:type="properties:TextDescription" valueExpression="aql:field.name">
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:field">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:newValue"/>
+              </firstModelOperations>
+            </initialOperation>
+          </widget>
+        </ifs>
+      </controls>
     </groups>
   </extensions>
 </description:Group>
